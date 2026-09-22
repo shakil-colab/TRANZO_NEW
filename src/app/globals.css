@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --background: linear-gradient(135deg,#eef5ff,#dbeafe,#f8fbff);
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
